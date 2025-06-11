@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+.HelpPage {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: url("/public/assets/LandingPage/homebg.jpg") no-repeat center
+    center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 75%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.642);
+  color: white;
+}
+.help-content {
+  background-color: rgba(0, 0, 0, 0.637);
+  width: 90%;
+  padding: 3%;
+  border-radius: 10px;
+  border: 1px solid white;
+  height: 75%;
+  overflow-y: auto;
+}
+.help-section h3 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300%;
+  margin-bottom: 2%;
+}
+.step-list,
+.gameplay-info,
+.controls-list,
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  margin-bottom: 2%;
+}
+.step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+.step-number {
+  font-family: "Shojumaru", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 50%;
+  padding: 10px 15px;
+  border: 1px solid #39ff14;
+}
+.step p,
+.info-card p,
+.control-desc,
+.details p,
+.email {
+  font-size: 1.2em;
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.info-card,
+.control-item {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+}
+h4 {
+  border: 1px solid #39ff14;
+  padding: 7px 5px;
+  font-size: 1.2em;
+  border-radius: 50%;
+  text-align: center;
+}
+.control-key {
+  font-size: 1.2em;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #39ff14;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.backbtn {
+  width: 90%;
+  margin-top: 3%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backbtn button {
+  width: 20%;
+  border: 1.2px solid #39ff14;
+  height: 95%;
+  border-radius: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #000000a1;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.5s ease;
+}
+
+.backbtn button:hover {
+  background-color: #39ff14;
+  color: black;
+}
+
+.email {
+  color: #39ff14;
+  margin-left: 0.5%;
+}

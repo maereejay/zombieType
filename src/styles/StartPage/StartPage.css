@@ -1,0 +1,22 @@
+.StartPage {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: url("/public/assets/LandingPage/homebg.jpg") no-repeat center
+    center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 75%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.642);
+}

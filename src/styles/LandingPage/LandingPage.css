@@ -1,0 +1,12 @@
+.LandingPage {
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: url("/public/assets/LandingPage/homebg.jpg") no-repeat center
+    center;
+  background-size: cover;
+}

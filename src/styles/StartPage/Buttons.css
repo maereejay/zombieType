@@ -1,0 +1,82 @@
+.start-buttons {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  width: 100%;
+}
+
+.start-buttons button {
+  background: linear-gradient(145deg, #2c3e50, #1b2735);
+  color: #2c3e50; /* neon green */
+  font-family: "Creepster", cursive;
+  font-size: 2rem;
+  padding: 15px 35px;
+  border: 3px solid #176b58; /* dark teal */
+  border-radius: 12px;
+  box-shadow: 0 0 15px #176b58, inset 0 0 20px #1b2735;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 10px #39ff14, 0 0 15px #00ffc3;
+  position: relative;
+  overflow: hidden;
+}
+
+.start-buttons button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  border-radius: 12px;
+}
+
+.yes::before {
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 0, 0, 0.6),
+    transparent 70%
+  );
+}
+.no::before {
+  background: radial-gradient(
+    circle at center,
+    rgba(57, 255, 20, 0.6),
+    transparent 70%
+  );
+}
+.start-buttons button:hover::before {
+  opacity: 1;
+}
+
+.no:hover {
+  box-shadow: 0 0 25px #00ffc3, inset 0 0 30px #1b2735;
+  transform: scale(1.05) rotate(-2deg);
+  color: #a8ffa8;
+  text-shadow: 0 0 15px #39ff14, 0 0 25px #00ffc3;
+}
+
+.yes:hover {
+  box-shadow: 0 0 25px #e74c3c,
+    /* bright blue glow on hover */ inset 0 0 30px #1b2735;
+  /* transform: scale(1.05) rotate(-10deg); */
+  color: #ebf5fb;
+  text-shadow: 0 0 15px #c95918, 0 0 25px #e60d0d;
+  border-color: #e74c3c;
+  animation: rock 2s infinite alternate ease-in-out;
+}
+
+@keyframes rock {
+  0% {
+    transform: scale(1.02) rotate(-10deg);
+  }
+  50% {
+    transform: scale(1.02) rotate(10deg);
+  }
+  100% {
+    transform: scale(1.02) rotate(-10deg);
+  }
+}

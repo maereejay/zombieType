@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1 {
+  display: inline-block;
+  margin-top: 1%;
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 470%;
+  color: #39ff14;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  animation: bubblePop 2s ease-in-out infinite;
+}
+.scaryzombie {
+  display: inline-block;
+  width: 9em;
+}
+@keyframes bubblePop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}

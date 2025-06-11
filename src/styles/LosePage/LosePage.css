@@ -1,0 +1,28 @@
+.losePage {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: url("/public/assets/LosePage/lose.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lose-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 75%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.447);
+}
+.lose-container h1 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-size: 4em;
+  font-style: normal;
+  color: white;
+  margin-top: 1%;
+}

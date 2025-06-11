@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+.typing-line {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 400%;
+  max-width: 75%;
+  text-wrap: balance;
+  color: #39ff14;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  border-right: 3px solid #39ff14;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: #39ff14;
+  }
+  50% {
+    border-color: transparent;
+  }
+}

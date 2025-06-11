@@ -1,0 +1,14 @@
+.keyboard {
+  position: relative;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboard img {
+  position: relative;
+  width: 50%;
+  height: 220%;
+}
