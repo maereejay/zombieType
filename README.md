@@ -1,6 +1,7 @@
 🧟‍♂️ Zombie Typing Game – ReactJS Project
 
 🚀 Overview
+
 The Zombie Typing Game is a beginner-friendly web game built with ReactJS that challenges players to type accurately and quickly to escape a chasing zombie.
 
 This was my first React project, built to apply what I learned about state management, components, and game logic — and to make learning a bit more fun (and stressful 😅).
