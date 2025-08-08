@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+🧟‍♂️ Zombie Typing Game – ReactJS Project
+🚀 Overview
+The Zombie Typing Game is a beginner-friendly web game built with ReactJS that challenges players to type accurately and quickly to escape a chasing zombie.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was my first React project, built to apply what I learned about state management, components, and game logic — and to make learning a bit more fun (and stressful 😅).
 
-## Available Scripts
+🕹️ How It Works
+Your character and a zombie are on a runway.
 
-In the project directory, you can run:
+You're given a sentence to type.
 
-### `npm start`
+The zombie keeps moving forward automatically.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You only move when you type the sentence correctly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If you reach the safe house before the zombie catches you — you win.
 
-### `npm test`
+If not... 🧟‍♀️ well, you don’t.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🧩 Features
+👾 3 Difficulty Levels: Easy, Medium, Hard
 
-### `npm run build`
+🎯 Real-time feedback while typing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📊 WPM (Words Per Minute) and result screen after each level
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚛️ Built using:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React (with hooks like useState, useEffect)
 
-### `npm run eject`
+Context API with Reducer for state management
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Multiple components for clean structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Custom UI with plain CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🎯 Goals
+This project helped me:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Practice state management and conditional rendering
 
-## Learn More
+Think through gameplay logic and movement
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Work with timers and side effects in React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Design and structure a complete front-end project
 
-### Code Splitting
+💡 Planned Improvements
+Add an Endless Mode that increases difficulty over time
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Improve responsiveness for mobile and all screen sizes
 
-### Analyzing the Bundle Size
+Add animations or sound effects for more immersion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🌐 Live Demo
+🔗 Live Game Here 
 
-### Making a Progressive Web App
+📁 Installation
+If you want to run the project locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+Copy
+Edit
+git clone https://github.com/mayreejay/zombieType.git
+cd zombieType
+npm install
+npm start
+🤝 Feedback Welcome
+Still improving this project and open to ideas!
+Feel free to fork, star, or suggest features via issues or pull requests.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📫 Contact
+If you’d like to connect or follow my learning journey:
+LinkedIn: www.linkedin.com/in/onwuasor-mary-jane-289465248
+Or feel free to open an issue right here on GitHub.
